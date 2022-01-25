@@ -1,0 +1,16 @@
+echo "Enter Check Number"
+read a
+
+b=$(($a%2))
+
+if [ $b -eq 0 ]
+  then
+    echo "$a is EVEN"
+
+elif [ $b -ne 0 ]
+  then 
+    echo "$a is ODD"
+
+else 
+   echo "ERROR"
+fi

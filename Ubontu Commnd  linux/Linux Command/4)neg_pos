@@ -1,0 +1,16 @@
+echo "Enter Number"
+read num
+if [ $num -lt 0 ]
+   then
+      echo "Negative Number"
+
+
+elif [ $num -ge 0 ]
+  then 
+    echo "Positive Number"
+
+else
+   echo "ERROR"
+
+
+fi

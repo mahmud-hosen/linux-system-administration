@@ -1,0 +1,22 @@
+#......................Upper_case ,  Lower case ,  Symbol Check...........
+
+
+echo "User Input"
+read input
+case $input in
+
+[A-Z] )
+echo "$input is capital letter" ;;
+
+[0-9] )
+echo "$input is Number" ;;
+
+[a-z] )
+echo "$input is Small letter" ;;
+
+? )
+  echo "Symbol" ;;
+
+* )
+echo "Unkhown" ;;
+esac

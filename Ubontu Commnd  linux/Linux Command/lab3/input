@@ -1,0 +1,39 @@
+
+read -p'Enter name: ' name1
+echo "name:$name1"
+
+read -p 'User Name:' user_var
+
+echo 
+read -sp 'password:' pass_var
+echo
+echo "User Name: $user_var"
+echo "Password: $pass_var"
+
+
+# newline echo
+# array input 
+
+
+echo "Enter Array name:"
+read -a name
+
+echo "Names: ${name[0]}  ${name[1]} ${name[3]}"
+
+
+
+
+# with  variable 
+
+echo "Enter  name"
+read 
+echo "Name $REPLY"
+
+
+
+echo $0 $1 $2
+echo $@
+
+
+# just 1st index show file name
+#$# show argument list

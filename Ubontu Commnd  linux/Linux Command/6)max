@@ -1,0 +1,17 @@
+echo "Enter Three Number"
+read a
+read b
+read c
+
+if [ "$a" -gt "$b" -a "$a" -gt "$c" ]       # -a is and 
+  then
+        echo "Max Number: $a"
+
+elif [ "$b" -gt "$a" -a "$b" -gt "$c" ]
+  then
+     echo "Max Number: $b"
+
+else
+   echo "Max NUmber: $c"
+
+fi

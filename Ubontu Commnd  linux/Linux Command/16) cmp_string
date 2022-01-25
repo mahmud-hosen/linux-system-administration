@@ -1,0 +1,19 @@
+word=abc
+if [ $word == "abc" ]
+then 
+   echo "Equal"
+
+else 
+  echo "Condition is false"
+
+
+fi
+
+#[ $var == 10 ]
+# (( $var >= 10 ))
+# for  flag 
+# Single third braket for flag-->  -eq,
+# string cmp ---> [[ $word < "abc" ]]
+
+
+

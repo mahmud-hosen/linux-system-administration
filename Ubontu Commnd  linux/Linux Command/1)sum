@@ -1,0 +1,37 @@
+#   ...............SUM......................
+
+echo "Enter Two Number"
+read a
+read b
+c=$(($a+$b))
+echo "SUM OF TWO IS: $a+$b=$c"
+
+
+
+#...................SUB.......................
+
+echo "Enter Two Number"
+read a
+read b
+c=$(($a-$b))
+echo "SUB OF TWO IS: $a-$b=$c"
+
+
+#.....................MUL.......................
+
+echo "Enter Two Number"
+read a
+read b
+c=$(($a*$b))
+echo "MUL OF TWO IS: $a*$b=$c"
+
+
+#......................DIV........................
+
+echo "Enter Two Number"
+read a
+read b
+c=$(($a/$b))
+echo "DIV OF TWO IS: $a/$b=$c"
+
+

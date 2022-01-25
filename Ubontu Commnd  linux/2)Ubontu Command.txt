@@ -1,0 +1,21 @@
+___________________File Command ____________________________________________________________________________
+
+
+1) ls = show all folder or file running path OR Directory listing
+
+2)cd =   Change to home directory 
+3)pwd = show current working directory
+4)mkdir = Creating a directory dir or folder
+5)touch  = Creating a file  ||Exp: touch file_name
+6)nano = write into file    ||Exp: nano file_name then enter, write into open this box ,then Ctrl X ,then Enter y ,then Enter 
+7)cat = read file           ||Exp: cat file_name
+8)rm = Delete Empty file    ||Exp: rm file_name
+9)rmdir =Delete Empty folder||Exp: rmdir file_name
+10)rm -rf = Remove (folder+file)   ||Exp: rm -rf file_name
+11)cp = Copy the contents of file1 to file2   ||Exp: cp file_1 file2
+12)mv = Rename or move file1 to file2   || Exp: mv file_name1 file_name2
+13) cd .. = back
+14)  cal = Calender 
+15)date =  show for date
+16) uptime = show for time
+17)clear = use for all command clear

@@ -1,0 +1,16 @@
+echo "Enter 1st Number"
+read a
+echo "Enter 2nd Number"
+read b
+
+x=$(($a+$b))
+y=$(($a-$b))
+z=$(($a*$b))
+m=$(($a/$b))
+n=`echo $a*$b | bc`
+
+echo "SUM: $a+$b=$x"
+echo "SUB: $a-$b=$y"
+echo "MUL: $a*$b=$z"
+echo "DIV: $a/$b=$m"
+echo "DIV: $n"

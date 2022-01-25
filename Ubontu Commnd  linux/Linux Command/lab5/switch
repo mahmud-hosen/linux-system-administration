@@ -1,0 +1,12 @@
+num=10
+
+case $num in
+  "10" )
+ echo "The number is 10";;
+   "11" )
+      echo "number is 11";;
+    "12" )
+      echo "number is 12";;
+      *)
+         echo "unknown"
+esac

@@ -1,0 +1,7 @@
+echo "Enter Base & Height"
+read a
+read b
+area=`echo .5*$a*$b | bc`
+
+echo "Triangle area is : $area"
+

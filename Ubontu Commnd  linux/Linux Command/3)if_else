@@ -1,0 +1,41 @@
+echo "Enter your avg mark"
+read mark
+
+if [ $mark -ge 80 ]
+  then 
+     echo "A+"
+
+elif [ $mark -ge 70 ]
+  then 
+     echo "A"
+
+
+elif [ $mark -ge 60 ]
+  then
+     echo "A-"
+
+
+
+elif [ $mark -ge 50 ]
+  then
+     echo "B"
+
+
+
+elif [ $mark -ge 40 ]
+  then
+     echo "C"
+
+
+
+elif [ $mark -ge 30 ]
+  then
+     echo "D"
+
+else
+  
+      echo "Fail"
+
+fi
+
+

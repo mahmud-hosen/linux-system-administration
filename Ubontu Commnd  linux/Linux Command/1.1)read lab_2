@@ -1,0 +1,21 @@
+echo $BASH  #mahmud
+echo $HOME
+echo $PWD
+echo $BASH_VERSION
+
+
+
+name=mahmud
+
+echo "$name"
+
+
+echo "Enter Your name"
+read a
+
+echo "$a"
+
+# Multipul varible
+read name1 name2 name3
+
+echo "The name are $name1 $name2 $name3"

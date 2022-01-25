@@ -1,0 +1,24 @@
+read -p'Enter your name: ' name
+echo " Your name is :$name"
+
+read -p 'User_Name: ' u_name
+read -sp 'User_Password' u_pass
+echo
+echo "User name is $u_name" 
+echo "User password is $u_pass"
+
+
+#Array_Input
+
+echo "Enter Four Name in Your Array List"
+read -a name
+echo "1st Name is ${name[0]} 2nd name is ${name[1]} 4rd name is ${name[3]}"
+
+
+echo "Enter your name"
+read 
+echo "Name is $REPLY"
+
+
+echo $0
+echo $@

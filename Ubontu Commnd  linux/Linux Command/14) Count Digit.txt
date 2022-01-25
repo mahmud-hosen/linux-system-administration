@@ -1,0 +1,7 @@
+echo "Enter a number"
+read n
+for ((i=0;n>0;n=n/10))
+ do
+   i=$((i+1))
+done
+echo "Toall Digit $i "

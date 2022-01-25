@@ -1,0 +1,27 @@
+num1=9
+num2=5
+
+
+num3=9.9
+num4=10.3
+
+
+echo "scale=4; 20 / 21" | bc
+
+
+
+
+# Two process 
+
+#1:
+ echo $((num1 + num2))
+
+echo $( expr $num1 + $num2 )
+
+#2:
+
+echo $( expr $num1 - $num2 )
+echo $( expr $num1 \* $num2 )
+echo $( expr $num1 / $num2 )
+echo $( expr $num1 % $num2 )
+

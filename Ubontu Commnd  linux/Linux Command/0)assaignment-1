@@ -1,0 +1,20 @@
+echo "Hello World"
+
+#<---It is use for comment .
+
+# Two types of veriable:
+# 1)System Variable : Set of dynamic name values,stored within the system
+#that are used by applications in shells or subshells.
+
+echo $BASH
+echo $HOME
+echo $PWD
+echo $BASH_VERSION 
+
+#2)User defined veriable :User define this veriable according to some method
+name=Mahmud
+echo "This is $name"
+echo "Enter your name,age,home"
+#Multipul Veriable
+ read name1 age home
+echo "My name is $name1 . I am $age years old.My home town is $home ." 
